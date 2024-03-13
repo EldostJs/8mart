@@ -101,3 +101,130 @@
 // }
 // console.log(arr);
 // console.log(maxNum);
+ 
+//------------9-------
+
+// var num = [6, 2, 1, 8, 10 ]
+
+// var maxNum = num[0]
+
+// var minNum = num[0]
+
+// for (let i = 0; i < num.length; i++) {
+//     if (num[i] > maxNum) {
+//         maxNum = num[i]
+//     }else if (num[i] < minNum) {
+//         minNum = num[i]
+//     }
+// }
+
+// var numT = []
+
+// for (let i = 0; i < num.length; i++) {
+//     if (num[i] !== minNum && num[i] !== maxNum) {
+//         numT.push(num[i])
+//     }    
+// }
+
+// var sum = 0
+
+// for (let i = 0; i < numT.length; i++) {
+//     sum += numT[i]   
+// }
+
+// console.log(sum);
+
+//--------10---------
+
+// var arr = [20,-1,-7,8,0.12,7,8]
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < 0) {
+//         console.log(arr[i]);
+//     }  
+// }
+
+// ------11 -------
+
+// var arr = ['salam','77','99',100,5,'sagol','necesen']
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (parseInt(arr[i])) {
+//         console.log(arr[i]);
+//     }
+// }
+
+// ----- 12 ------
+
+// var arr = ["3:1", "2:2", "0:1","0:2", "1:0", "2:3","4:3", "1:1", "4:2"]
+
+// for (let i = 0; i < arr.length; i++) {
+
+//     var res = arr[i]
+
+//     var matRes = res.split(":")
+
+//     var s1 = +(matRes[0])
+
+//     var s2 = +(matRes[1])
+
+//     if (s1 > s2 ) {
+//         console.log("Home Win",res);
+//     }else if (s1 < s2) {
+//         console.log("Guests Win",res);
+//     }else {
+//         console.log("Draw", res);
+//     }
+// }
+
+//-------13------------
+
+
+// for (let i = 0; i <= 200; i+= 10) {
+   
+//     console.log([i]);
+// }
+
+//-----------14------------
+
+// var arr = [true,  true,  true,  false,
+//     true,  true,  true,  true ,
+//     true,  false, true,  false,
+//     true,  false, false, true ,
+//     true,  true,  true,  true ,
+//     false, false, true,  true]
+
+//     var tr = 0
+//     var fl = 0
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === true) {
+//         tr ++
+//     }else if (arr[i] === false) {
+//         fl ++
+//     }
+// }
+// console.log(tr);
+// console.log(fl);
+
+//--------15--------------
+
+// var arr = "In this Kata, a string is said to be in ALL CAPS whenever it does not contain any lowercase letter so any string containing no letters at all is trivially considered to be in ALL CAPS."
+
+// var low = 0
+
+// var up = 0
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === arr[i].toLowerCase()) {
+//         low += 1
+//     }else if (arr[i] === arr[i].toUpperCase() && arr[i] !== " " && arr[i] !== "," && arr[i] !== ".") {
+//         up += 1
+//     }
+// }
+
+// console.log(low);
+// console.log(up);
+
+//----------16-------------
+
